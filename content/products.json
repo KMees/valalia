@@ -1,0 +1,503 @@
+[
+  {
+    "id": "elv-001",
+    "slug": "daily-spendable",
+    "brandId": "elvoria",
+    "title": "Daily Spendable",
+    "summary": "How much can I safely spend before my next paycheck?",
+    "description": "A paycheck-cycle sheet. It returns a safe-to-spend lump and a daily amount from the cash and bills you enter. It does not add the next paycheck, and it does not advise.",
+    "buyerProvides": "Cycle-start cash, cadence, and the next payday. Optional hold-back, buffer, bills, plans, sinking funds, and a spend log.",
+    "returns": "Safe-to-spend lump, daily amount, days until payday, spoken-for split, status, the next three outgoings, and a payday checklist.",
+    "features": [
+      "Safe-to-spend lump and daily amount",
+      "Days until payday",
+      "Spoken-for split and status",
+      "Next three outgoings",
+      "Payday checklist"
+    ],
+    "price": 1200,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [],
+    "files": [
+      {
+        "key": "private/elvoria/elv-001/daily-spendable.xlsx",
+        "filename": "ELVORIA Daily Spendable — COPY ME.xlsx",
+        "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+      },
+      {
+        "key": "private/elvoria/elv-001/quickstart.pdf",
+        "filename": "ELVORIA-001-daily-spendable-quickstart-v1.0.pdf",
+        "contentType": "application/pdf"
+      }
+    ],
+    "license": "Personal use. The buyer keeps their copy. Do not resell or share the file.",
+    "tags": ["paycheck", "safe to spend", "household"],
+    "status": "active",
+    "featured": true,
+    "createdAt": "2026-06-01"
+  },
+  {
+    "id": "elv-002",
+    "slug": "debt-payoff-tracker",
+    "brandId": "elvoria",
+    "title": "Debt Payoff Tracker",
+    "summary": "If I pay extra, when is each debt gone under snowball versus avalanche?",
+    "description": "Compares a snowball order and an avalanche order from the balances you type. Dates assume the planned payments are made. It is not a credit product.",
+    "buyerProvides": "Each balance, its rate, its minimum, and any extra you plan to pay.",
+    "returns": "Debt-free date, interest, an order comparison, and a period plan.",
+    "features": ["Snowball and avalanche dates", "Interest comparison", "Period plan"],
+    "price": 1200,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [],
+    "files": [
+      {
+        "key": "private/elvoria/elv-002/debt-payoff.xlsx",
+        "filename": "ELVORIA Debt Payoff Tracker — COPY ME.xlsx",
+        "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+      },
+      {
+        "key": "private/elvoria/elv-002/quickstart.pdf",
+        "filename": "ELVORIA-002-debt-payoff-quickstart-v1.0.pdf",
+        "contentType": "application/pdf"
+      }
+    ],
+    "license": "Personal use. The buyer keeps their copy. Do not resell or share the file.",
+    "tags": ["debt", "snowball", "avalanche"],
+    "status": "active",
+    "featured": false,
+    "createdAt": "2026-06-08"
+  },
+  {
+    "id": "elv-003",
+    "slug": "sinking-funds-tracker",
+    "brandId": "elvoria",
+    "title": "Sinking Funds Tracker",
+    "summary": "How much must I put aside each period so each dated goal is full on time?",
+    "description": "Tracks dated goals and the amount still required this period. Status is ready, saving, due now, or missing a date.",
+    "buyerProvides": "Each goal, its date, and what is already set aside.",
+    "returns": "Required this period, remaining, pace, and a status for each goal.",
+    "features": ["Required amount this period", "Remaining by goal", "Ready, saving, due, or missing date"],
+    "price": 1200,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [],
+    "files": [
+      {
+        "key": "private/elvoria/elv-003/sinking-funds.xlsx",
+        "filename": "ELVORIA Sinking Funds Tracker — COPY ME.xlsx",
+        "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+      },
+      {
+        "key": "private/elvoria/elv-003/quickstart.pdf",
+        "filename": "ELVORIA-003-sinking-funds-quickstart-v1.0.pdf",
+        "contentType": "application/pdf"
+      }
+    ],
+    "license": "Personal use. The buyer keeps their copy. Do not resell or share the file.",
+    "tags": ["sinking funds", "goals", "household"],
+    "status": "active",
+    "featured": true,
+    "createdAt": "2026-06-15"
+  },
+  {
+    "id": "elv-004",
+    "slug": "paycheck-calendar",
+    "brandId": "elvoria",
+    "title": "Paycheck Calendar",
+    "summary": "Which bills fall between today and the next deposit?",
+    "description": "A printable map of bills between now and the next deposit. No calculation engine.",
+    "buyerProvides": "Bill names and the dates they fall due.",
+    "returns": "A visual map. No calculation.",
+    "features": ["Letter and A4 print", "Bills placed against the next deposit"],
+    "price": 900,
+    "currency": "USD",
+    "format": "pdf",
+    "images": [{ "src": "/media/missing-cover.png", "alt": "Paycheck Calendar cover" }],
+    "files": [
+      {
+        "key": "private/elvoria/elv-004/paycheck-calendar.pdf",
+        "filename": "ELVORIA-004-paycheck-calendar-print-v1.0.pdf",
+        "contentType": "application/pdf"
+      }
+    ],
+    "license": "Personal use. The buyer keeps their copy. Do not resell or share the file.",
+    "tags": ["calendar", "bills", "printable"],
+    "status": "active",
+    "featured": false,
+    "createdAt": "2026-06-22"
+  },
+  {
+    "id": "elv-005",
+    "slug": "cash-envelope-starter-kit",
+    "brandId": "elvoria",
+    "title": "Cash Envelope Starter Kit",
+    "summary": "Print and separate discretionary cash by category.",
+    "description": "Printable category inserts for cash envelopes. Not a bank, and not a spreadsheet.",
+    "buyerProvides": "Category names. Print and cut.",
+    "returns": "Physical category inserts.",
+    "features": ["Letter and A4 sheets", "A6 inserts"],
+    "price": 1100,
+    "currency": "USD",
+    "format": "pdf",
+    "images": [],
+    "files": [
+      {
+        "key": "private/elvoria/elv-005/cash-envelope-kit.pdf",
+        "filename": "ELVORIA-005-cash-envelope-kit-print-v1.0.pdf",
+        "contentType": "application/pdf"
+      }
+    ],
+    "license": "Personal use. The buyer keeps their copy. Do not resell or share the file.",
+    "tags": ["envelopes", "cash", "printable"],
+    "status": "active",
+    "featured": false,
+    "createdAt": "2026-06-29"
+  },
+  {
+    "id": "elv-006",
+    "slug": "subscription-annualizer",
+    "brandId": "elvoria",
+    "title": "Subscription Annualizer",
+    "summary": "What do these recurring charges cost per year, and which do I cut before renewal?",
+    "description": "Turns recurring charges into a yearly total and lists the next renewals. Cutting a row is your edit, not a recommendation engine.",
+    "buyerProvides": "Each recurring charge, its amount, and its renewal date.",
+    "returns": "Annualized total, monthly equivalent, cut potential, and the next five renewals.",
+    "features": ["Yearly total", "Monthly equivalent", "Next five renewals"],
+    "price": 900,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [],
+    "files": [
+      {
+        "key": "private/elvoria/elv-006/subscription-annualizer.xlsx",
+        "filename": "ELVORIA Subscription Annualizer — COPY ME.xlsx",
+        "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+      },
+      {
+        "key": "private/elvoria/elv-006/quickstart.pdf",
+        "filename": "ELVORIA-006-subscription-annualizer-quickstart-v1.0.pdf",
+        "contentType": "application/pdf"
+      }
+    ],
+    "license": "Personal use. The buyer keeps their copy. Do not resell or share the file.",
+    "tags": ["subscriptions", "renewals"],
+    "status": "active",
+    "featured": true,
+    "createdAt": "2026-07-06"
+  },
+  {
+    "id": "elv-007",
+    "slug": "emergency-fund-calculator",
+    "brandId": "elvoria",
+    "title": "Emergency Fund Calculator",
+    "summary": "Using my must-pays, what is my runway target and when do I hit it?",
+    "description": "Builds a target from the must-pays you enter and counts periods to that target. Status is no target, saving, or ready.",
+    "buyerProvides": "Must-pay amounts and what is already saved.",
+    "returns": "Target, remaining, periods to goal, funded date, percent, and status.",
+    "features": ["Target from must-pays", "Periods to goal", "Funded date and status"],
+    "price": 1200,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [],
+    "files": [
+      {
+        "key": "private/elvoria/elv-007/emergency-fund.xlsx",
+        "filename": "ELVORIA Emergency Fund Calculator — COPY ME.xlsx",
+        "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+      },
+      {
+        "key": "private/elvoria/elv-007/quickstart.pdf",
+        "filename": "ELVORIA-007-emergency-fund-quickstart-v1.0.pdf",
+        "contentType": "application/pdf"
+      }
+    ],
+    "license": "Personal use. The buyer keeps their copy. Do not resell or share the file.",
+    "tags": ["emergency fund", "runway"],
+    "status": "active",
+    "featured": false,
+    "createdAt": "2026-07-13"
+  },
+  {
+    "id": "elv-008",
+    "slug": "dual-paycheck-allocator",
+    "brandId": "elvoria",
+    "title": "Dual Paycheck Allocator",
+    "summary": "How do two pay dates cover shared bills without one side going negative?",
+    "description": "Splits shared bills across two pay streams and flags a side that would go negative. It does not move the money.",
+    "buyerProvides": "Two pay dates, shared bills, and what each stream can cover.",
+    "returns": "A safe amount per stream, transfer lines, and two statuses.",
+    "features": ["Two pay streams", "Transfer lines", "A status for each side"],
+    "price": 1400,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [],
+    "files": [
+      {
+        "key": "private/elvoria/elv-008/dual-paycheck.xlsx",
+        "filename": "ELVORIA Dual-Paycheck Allocator — COPY ME.xlsx",
+        "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+      },
+      {
+        "key": "private/elvoria/elv-008/quickstart.pdf",
+        "filename": "ELVORIA-008-dual-paycheck-quickstart-v1.0.pdf",
+        "contentType": "application/pdf"
+      }
+    ],
+    "license": "Personal use. The buyer keeps their copy. Do not resell or share the file.",
+    "tags": ["two incomes", "bills"],
+    "status": "active",
+    "featured": true,
+    "createdAt": "2026-07-20"
+  },
+  {
+    "id": "elv-009",
+    "slug": "variable-income-planner",
+    "brandId": "elvoria",
+    "title": "Variable Income Planner",
+    "summary": "What is safe this cycle when deposits are uneven, without treating a boom as the baseline?",
+    "description": "Sets a this-cycle safe amount from uneven deposits. A boom is flagged. It is not used as the new baseline.",
+    "buyerProvides": "Uneven deposits for the cycle and the bills that stay.",
+    "returns": "This-cycle safe amount, a daily split, a boom flag, and a status.",
+    "features": ["Safe amount for this cycle", "Daily split", "Boom flag"],
+    "price": 1400,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [],
+    "files": [
+      {
+        "key": "private/elvoria/elv-009/variable-income.xlsx",
+        "filename": "ELVORIA Variable Income Planner — COPY ME.xlsx",
+        "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+      },
+      {
+        "key": "private/elvoria/elv-009/quickstart.pdf",
+        "filename": "ELVORIA-009-variable-income-quickstart-v1.0.pdf",
+        "contentType": "application/pdf"
+      }
+    ],
+    "license": "Personal use. The buyer keeps their copy. Do not resell or share the file.",
+    "tags": ["variable income", "paycheck"],
+    "status": "active",
+    "featured": false,
+    "createdAt": "2026-07-27"
+  },
+  {
+    "id": "elv-010",
+    "slug": "payday-cash-split",
+    "brandId": "elvoria",
+    "title": "Payday Cash Split",
+    "summary": "I have cash to withdraw. What goes in each envelope, and what notes do I take?",
+    "description": "Splits a withdrawal across envelopes and reports the remainder. A one-tab sheet includes a note helper. The printable is the primary file.",
+    "buyerProvides": "The cash withdrawn and the envelope amounts.",
+    "returns": "Remainder, a balanced, over-allocated, or under-allocated status, and a note helper on the sheet.",
+    "features": ["Envelope split", "Remainder", "Optional one-tab sheet"],
+    "price": 900,
+    "currency": "USD",
+    "format": "pdf",
+    "images": [],
+    "files": [
+      {
+        "key": "private/elvoria/elv-010/payday-cash-split.pdf",
+        "filename": "ELVORIA-010-payday-cash-split-print-v1.0.pdf",
+        "contentType": "application/pdf"
+      },
+      {
+        "key": "private/elvoria/elv-010/payday-cash-split.xlsx",
+        "filename": "ELVORIA Payday Cash-Split — COPY ME.xlsx",
+        "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+      }
+    ],
+    "license": "Personal use. The buyer keeps their copy. Do not resell or share the file.",
+    "tags": ["payday", "cash", "envelopes"],
+    "status": "active",
+    "featured": false,
+    "createdAt": "2026-08-03"
+  },
+  {
+    "id": "elv-011",
+    "slug": "digital-envelope-ledger",
+    "brandId": "elvoria",
+    "title": "Digital Envelope Ledger",
+    "summary": "What is left in each named envelope after each spend?",
+    "description": "A ledger of named envelopes. Spends reduce the remaining amount. Over and over-cap are flags, not advice.",
+    "buyerProvides": "Envelope names, amounts in, and spends out.",
+    "returns": "Remaining per envelope, total remaining, and over or over-cap flags.",
+    "features": ["Remaining per envelope", "Total remaining", "Over and over-cap flags"],
+    "price": 1200,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [],
+    "files": [
+      {
+        "key": "private/elvoria/elv-011/digital-envelope-ledger.xlsx",
+        "filename": "ELVORIA Digital Envelope Ledger — COPY ME.xlsx",
+        "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+      },
+      {
+        "key": "private/elvoria/elv-011/quickstart.pdf",
+        "filename": "ELVORIA-011-digital-envelopes-quickstart-v1.0.pdf",
+        "contentType": "application/pdf"
+      }
+    ],
+    "license": "Personal use. The buyer keeps their copy. Do not resell or share the file.",
+    "tags": ["envelopes", "ledger"],
+    "status": "active",
+    "featured": false,
+    "createdAt": "2026-08-10"
+  },
+  {
+    "id": "elv-012",
+    "slug": "savings-challenge-pack",
+    "brandId": "elvoria",
+    "title": "Savings Challenge Pack",
+    "summary": "Mark progress toward one finite savings target.",
+    "description": "Printable marks for one finite target. No spreadsheet engine.",
+    "buyerProvides": "One target and the marks toward it.",
+    "returns": "Visual progress on one finite target.",
+    "features": ["One finite target", "Letter, A4, and A6 cards"],
+    "price": 800,
+    "currency": "USD",
+    "format": "pdf",
+    "images": [],
+    "files": [
+      {
+        "key": "private/elvoria/elv-012/savings-challenges.pdf",
+        "filename": "ELVORIA-012-savings-challenges-print-v1.0.pdf",
+        "contentType": "application/pdf"
+      }
+    ],
+    "license": "Personal use. The buyer keeps their copy. Do not resell or share the file.",
+    "tags": ["savings", "printable"],
+    "status": "active",
+    "featured": false,
+    "createdAt": "2026-08-17"
+  },
+  {
+    "id": "tal-001",
+    "slug": "batch-cost-card",
+    "brandId": "tallybench",
+    "title": "Batch Cost Card",
+    "summary": "What does this bake cost from ingredients and yield?",
+    "description": "A preview instrument. It will cost one batch from ingredient lines and yield. Not for sale until the file is attached.",
+    "buyerProvides": "Ingredient costs and the number of portions.",
+    "returns": "Cost per batch and cost per portion.",
+    "features": ["Ingredient lines", "Yield", "Cost per portion"],
+    "price": 1400,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [],
+    "files": [],
+    "license": "Personal use. Not for sale in this preview.",
+    "tags": ["bakery", "costing"],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-09-01"
+  },
+  {
+    "id": "lot-001",
+    "slug": "route-quote-sheet",
+    "brandId": "lotline",
+    "title": "Route Quote Sheet",
+    "summary": "What does this yard visit cost from time, travel, and materials?",
+    "description": "A preview instrument. It will price one outdoor visit. Not for sale until the file is attached.",
+    "buyerProvides": "Time on site, travel, and material lines.",
+    "returns": "A quote figure for one visit.",
+    "features": ["Time", "Travel", "Materials"],
+    "price": 1400,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [],
+    "files": [],
+    "license": "Personal use. Not for sale in this preview.",
+    "tags": ["quoting", "outdoor"],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-09-02"
+  },
+  {
+    "id": "kip-001",
+    "slug": "visit-rate-card",
+    "brandId": "kipround",
+    "title": "Visit Rate Card",
+    "summary": "What does this sit cost from visits, add-ons, and travel?",
+    "description": "A preview instrument. It will price one sitting visit. Not for sale until the file is attached.",
+    "buyerProvides": "Visit count, add-ons, and travel.",
+    "returns": "A visit total.",
+    "features": ["Visits", "Add-ons", "Travel"],
+    "price": 1200,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [],
+    "files": [],
+    "license": "Personal use. Not for sale in this preview.",
+    "tags": ["pet sitting", "pricing"],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-09-03"
+  },
+  {
+    "id": "pla-001",
+    "slug": "print-job-quote",
+    "brandId": "platen",
+    "title": "Print Job Quote",
+    "summary": "What does this decoration run cost from blanks, ink, and setup?",
+    "description": "A preview instrument. It will price one press job. Not for sale until the file is attached.",
+    "buyerProvides": "Blank count, ink, and setup time.",
+    "returns": "A job figure.",
+    "features": ["Blanks", "Ink", "Setup"],
+    "price": 1600,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [],
+    "files": [],
+    "license": "Personal use. Not for sale in this preview.",
+    "tags": ["apparel", "quoting"],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-09-04"
+  },
+  {
+    "id": "vit-001",
+    "slug": "booth-month-ledger",
+    "brandId": "vitrine",
+    "title": "Booth Month Ledger",
+    "summary": "After rent and the booth fee, what did the month keep?",
+    "description": "A preview instrument. It will set booth rent, sales, and fees against one month. Not for sale until the file is attached.",
+    "buyerProvides": "Rent, fees, and sales for the month.",
+    "returns": "What the booth kept.",
+    "features": ["Rent", "Fees", "Sales"],
+    "price": 1400,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [],
+    "files": [],
+    "license": "Personal use. Not for sale in this preview.",
+    "tags": ["booth", "antique"],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-09-05"
+  },
+  {
+    "id": "pel-001",
+    "slug": "chair-day-sheet",
+    "brandId": "pelage",
+    "title": "Chair Day Sheet",
+    "summary": "After appointments and chair cost, what did the day keep?",
+    "description": "A preview instrument. It will set one chair day against service price and chair cost. Not for sale until the file is attached.",
+    "buyerProvides": "Appointments, service prices, and the chair cost.",
+    "returns": "What the chair kept for the day.",
+    "features": ["Appointments", "Service price", "Chair cost"],
+    "price": 1400,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [],
+    "files": [],
+    "license": "Personal use. Not for sale in this preview.",
+    "tags": ["grooming", "chair"],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-09-06"
+  }
+]

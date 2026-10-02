@@ -1,0 +1,14 @@
+node_modules
+dist
+.output
+.nitro
+.vinxi
+.vercel
+.env
+.env.*
+!.env.example
+artifacts
+screenshots
+.grok
+*.log
+.node_modules.lock

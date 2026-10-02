@@ -1,0 +1,138 @@
+@import "tailwindcss" source(".");
+
+@theme {
+  --color-field: #f7f6f3;
+  --color-ink: #1a1c1b;
+  --color-measure: #1e3a34;
+  --color-line: #d8d4cc;
+  --color-mute: #6b6560;
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --radius-sm: 2px;
+}
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: var(--color-field);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-weight: 420;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-measure);
+    outline-offset: 3px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+      animation: none !important;
+      transition: none !important;
+    }
+  }
+}
+
+@layer components {
+  .wordmark {
+    font-weight: 520;
+    letter-spacing: 0.18em;
+  }
+
+  .skip {
+    position: absolute;
+    left: 1rem;
+    top: -4rem;
+    z-index: 60;
+    background: var(--color-measure);
+    color: var(--color-field);
+    padding: 0.5rem 1rem;
+  }
+
+  .skip:focus {
+    top: 0.5rem;
+  }
+
+  .btn {
+    display: inline-flex;
+    min-height: 2.75rem;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--color-measure);
+    border-radius: var(--radius-sm);
+    background: var(--color-measure);
+    padding: 0 1.25rem;
+    color: var(--color-field);
+    font: inherit;
+    font-weight: 520;
+    text-decoration: none;
+  }
+
+  .btn:hover {
+    border-color: var(--color-ink);
+    background: var(--color-ink);
+    color: var(--color-field);
+    text-decoration: none;
+  }
+
+  .btn-secondary {
+    border-color: var(--color-ink);
+    background: transparent;
+    color: var(--color-ink);
+  }
+
+  .btn-secondary:hover {
+    background: var(--color-ink);
+    color: var(--color-field);
+  }
+
+  .btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.45;
+  }
+
+  .field {
+    width: 100%;
+    min-height: 2.75rem;
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius-sm);
+    background: var(--color-field);
+    padding: 0.5rem 0.75rem;
+    color: var(--color-ink);
+    font: inherit;
+  }
+
+  .cover-frame {
+    aspect-ratio: 4 / 5;
+  }
+
+  .menu-dialog {
+    margin: 0 0 0 auto;
+    height: 100%;
+    max-height: 100%;
+    width: min(100%, 20rem);
+    border: 0;
+    background: var(--color-field);
+    color: var(--color-ink);
+    padding: 0;
+  }
+
+  .menu-dialog::backdrop {
+    background: rgb(26 28 27 / 0.45);
+  }
+}

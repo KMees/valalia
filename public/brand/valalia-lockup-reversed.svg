@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 180" role="img" aria-label="Valalia">
+  <rect width="980" height="180" fill="#1A1C1B"/>
+  <g transform="translate(8 18) scale(0.28)">
+    <path d="M116 132 H188 L256 332 L324 132 H396 L292 404 H220 Z" fill="#F7F6F3"/>
+  </g>
+  <text x="168" y="122" fill="#F7F6F3" font-family="Outfit, Arial, sans-serif" font-size="92" font-weight="500" letter-spacing="8">VALALIA</text>
+</svg>
