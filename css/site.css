@@ -1,0 +1,54 @@
+
+:root {
+  --paper: #F4F1EC;
+  --ink: #161A1E;
+  --steel: #1F4C5A;
+  --line: #D9D3C8;
+  --mute: #5E656B;
+  --card: #FBFAF7;
+}
+* { box-sizing: border-box; }
+html { font-size: 18px; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Instrument Sans", system-ui, sans-serif;
+  line-height: 1.45;
+}
+a { color: var(--steel); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--steel); outline-offset: 3px; }
+header, footer { padding: 1rem 1.25rem; }
+header {
+  display: flex; justify-content: space-between; align-items: center;
+  border-bottom: 1px solid var(--line); position: sticky; top: 0; background: var(--paper); z-index: 2;
+}
+.mark { font-weight: 560; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink); text-decoration: none; font-size: 0.85rem; }
+nav { display: flex; gap: 1rem; font-size: 0.9rem; }
+nav a { color: var(--ink); text-decoration: none; }
+main { padding: 1.5rem 1.25rem 3rem; max-width: 880px; margin: 0 auto; }
+h1 { font-weight: 520; font-size: 2rem; letter-spacing: -0.03em; margin: 0 0 0.6rem; }
+.lede { font-size: 1.15rem; max-width: 28rem; }
+.mute { color: var(--mute); }
+.grid { display: grid; gap: 0.75rem; margin-top: 1.5rem; }
+.card {
+  display: block; background: var(--card); border: 1px solid var(--line);
+  padding: 1rem 1rem 1rem 1.1rem; text-decoration: none; color: inherit;
+  border-left: 4px solid var(--accent, var(--steel));
+}
+.card strong { display: block; font-size: 1.05rem; }
+.card span { color: var(--mute); }
+.bar { height: 3px; background: var(--steel); width: 3.5rem; margin: 1rem 0; }
+.essay { font-family: "Source Serif 4", Georgia, serif; font-size: 1.15rem; max-width: 36rem; }
+footer { border-top: 1px solid var(--line); color: var(--mute); font-size: 0.85rem; }
+.row { display: flex; justify-content: space-between; gap: 1rem; align-items: baseline; }
+button, .btn {
+  background: var(--ink); color: var(--paper); border: 0; padding: 0.7rem 1rem;
+  font: inherit; cursor: pointer;
+}
+button[disabled], .btn[aria-disabled="true"] { background: #8d8680; cursor: not-allowed; }
+.notice { border: 1px solid var(--line); padding: 0.8rem 1rem; background: var(--card); }
+@media (min-width: 720px) {
+  .grid.shops { grid-template-columns: 1fr 1fr; }
+  h1 { font-size: 2.6rem; }
+}

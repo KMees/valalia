@@ -1,0 +1,144 @@
+{
+  "products": [
+    {
+      "id": "elvoria-instrument-01",
+      "brand": "elvoria",
+      "title": "Elvoria instrument",
+      "description": "First product slot for Elvoria. One file, one verdict, for the household operator. Record is live. Sale is not.",
+      "price": 0,
+      "currency": "USD",
+      "images": [],
+      "files": [],
+      "category": "instrument",
+      "tags": [
+        "preview",
+        "elvoria"
+      ],
+      "status": "preview",
+      "license": "single-operator",
+      "metadata": {
+        "job": "one verdict"
+      }
+    },
+    {
+      "id": "tallybench-instrument-01",
+      "brand": "tallybench",
+      "title": "Tallybench instrument",
+      "description": "First product slot for Tallybench. The number a baker can use before the quote goes out. Record is live. Sale is not.",
+      "price": 0,
+      "currency": "USD",
+      "images": [],
+      "files": [],
+      "category": "instrument",
+      "tags": [
+        "preview",
+        "tallybench"
+      ],
+      "status": "preview",
+      "license": "single-operator",
+      "metadata": {
+        "job": "one verdict"
+      }
+    },
+    {
+      "id": "lotline-instrument-01",
+      "brand": "lotline",
+      "title": "Lotline instrument",
+      "description": "First product slot for Lotline. A job price the crew can stand behind. Record is live. Sale is not.",
+      "price": 0,
+      "currency": "USD",
+      "images": [],
+      "files": [],
+      "category": "instrument",
+      "tags": [
+        "preview",
+        "lotline"
+      ],
+      "status": "preview",
+      "license": "single-operator",
+      "metadata": {
+        "job": "one verdict"
+      }
+    },
+    {
+      "id": "kipround-instrument-01",
+      "brand": "kipround",
+      "title": "Kipround instrument",
+      "description": "First product slot for Kipround. Visit rates that return a number, not a course. Record is live. Sale is not.",
+      "price": 0,
+      "currency": "USD",
+      "images": [],
+      "files": [],
+      "category": "instrument",
+      "tags": [
+        "preview",
+        "kipround"
+      ],
+      "status": "preview",
+      "license": "single-operator",
+      "metadata": {
+        "job": "one verdict"
+      }
+    },
+    {
+      "id": "platen-instrument-01",
+      "brand": "platen",
+      "title": "Platen instrument",
+      "description": "First product slot for Platen. Press work priced as a job, not a guess. Record is live. Sale is not.",
+      "price": 0,
+      "currency": "USD",
+      "images": [],
+      "files": [],
+      "category": "instrument",
+      "tags": [
+        "preview",
+        "platen"
+      ],
+      "status": "preview",
+      "license": "single-operator",
+      "metadata": {
+        "job": "one verdict"
+      }
+    },
+    {
+      "id": "vitrine-instrument-01",
+      "brand": "vitrine",
+      "title": "Vitrine instrument",
+      "description": "First product slot for Vitrine. Booth math the dealer can read. Record is live. Sale is not.",
+      "price": 0,
+      "currency": "USD",
+      "images": [],
+      "files": [],
+      "category": "instrument",
+      "tags": [
+        "preview",
+        "vitrine"
+      ],
+      "status": "preview",
+      "license": "single-operator",
+      "metadata": {
+        "job": "one verdict"
+      }
+    },
+    {
+      "id": "pelage-instrument-01",
+      "brand": "pelage",
+      "title": "Pelage instrument",
+      "description": "First product slot for Pelage. Chair time turned into a usable number. Record is live. Sale is not.",
+      "price": 0,
+      "currency": "USD",
+      "images": [],
+      "files": [],
+      "category": "instrument",
+      "tags": [
+        "preview",
+        "pelage"
+      ],
+      "status": "preview",
+      "license": "single-operator",
+      "metadata": {
+        "job": "one verdict"
+      }
+    }
+  ]
+}

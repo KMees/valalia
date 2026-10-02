@@ -1,0 +1,60 @@
+{
+  "brands": [
+    {
+      "id": "elvoria",
+      "name": "Elvoria",
+      "promise": "Household cash engines.",
+      "detail": "One file, one verdict, for the household operator.",
+      "color": "#8A3A12",
+      "status": "active"
+    },
+    {
+      "id": "tallybench",
+      "name": "Tallybench",
+      "promise": "Baker costing and quoting.",
+      "detail": "The number a baker can use before the quote goes out.",
+      "color": "#B08A4F",
+      "status": "active"
+    },
+    {
+      "id": "lotline",
+      "name": "Lotline",
+      "promise": "Outdoor-service quoting.",
+      "detail": "A job price the crew can stand behind.",
+      "color": "#2F4F3E",
+      "status": "active"
+    },
+    {
+      "id": "kipround",
+      "name": "Kipround",
+      "promise": "Pet-sitter visit pricing.",
+      "detail": "Visit rates that return a number, not a course.",
+      "color": "#8B3A2A",
+      "status": "active"
+    },
+    {
+      "id": "platen",
+      "name": "Platen",
+      "promise": "Apparel-decorator quoting.",
+      "detail": "Press work priced as a job, not a guess.",
+      "color": "#3C3A36",
+      "status": "active"
+    },
+    {
+      "id": "vitrine",
+      "name": "Vitrine",
+      "promise": "Antique-mall booth economics.",
+      "detail": "Booth math the dealer can read.",
+      "color": "#2B2118",
+      "status": "active"
+    },
+    {
+      "id": "pelage",
+      "name": "Pelage",
+      "promise": "Groomer chair economics.",
+      "detail": "Chair time turned into a usable number.",
+      "color": "#C4A574",
+      "status": "active"
+    }
+  ]
+}
