@@ -19,6 +19,8 @@ export type BrandTypography = {
 
 export type BrandLogo = {
   monogram: string;
+  /** Public shop mark. A logo file, not a product file. */
+  src?: string;
 };
 
 export type Brand = {

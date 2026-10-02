@@ -100,21 +100,27 @@ export function ProductGrid({ products }: { products: Product[] }) {
 
 export function BrandDoor({ brand, count }: { brand: Brand; count: number }) {
   return (
-    <article className="flex h-full border border-line bg-field">
-      <span className="w-1 shrink-0" style={{ background: brand.colors.accent }} aria-hidden="true" />
-      <div className="flex flex-1 flex-col gap-3 p-5">
-        <p className="text-xs tracking-widest text-mute" aria-hidden="true">
-          {brand.logo.monogram}
-        </p>
-        <h2 className="text-2xl font-medium">{brand.name}</h2>
-        <p className="text-mute">{brand.promise}</p>
-        <p className="text-sm text-mute">
-          {count} {count === 1 ? "product" : "products"}
-        </p>
-        <Link to="/brands/$slug" params={{ slug: brand.slug }} className="mt-auto inline-flex min-h-11 items-center text-measure">
-          Enter {brand.name}
-        </Link>
-      </div>
+    <article className="h-full border border-line bg-field">
+      <Link
+        to="/brands/$slug"
+        params={{ slug: brand.slug }}
+        className="flex h-full min-h-44 flex-col text-ink no-underline"
+      >
+        <span className="h-1.5 shrink-0" style={{ background: brand.colors.accent }} aria-hidden="true" />
+        <div className="flex flex-1 flex-col gap-3 p-5">
+          {brand.logo.src ? (
+            <img src={brand.logo.src} alt="" className="h-16 w-16 object-contain" />
+          ) : (
+            <p className="text-xs tracking-widest text-mute">{brand.logo.monogram}</p>
+          )}
+          <h2 className="text-2xl font-medium">{brand.name}</h2>
+          <p className="text-mute">{brand.promise}</p>
+          <p className="text-sm text-mute">
+            {count} {count === 1 ? "product" : "products"}
+          </p>
+          <span className="mt-auto inline-flex min-h-11 items-center text-measure">Open {brand.name}</span>
+        </div>
+      </Link>
     </article>
   );
 }

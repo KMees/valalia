@@ -156,7 +156,7 @@ function MissingProduct() {
     <main className="mx-auto max-w-3xl px-5 py-20">
       <h1 className="text-3xl font-medium">This product is not in the catalog.</h1>
       <p className="mt-6">
-        <Link to="/brands">Brands</Link>
+        <Link to="/brands">Shops</Link>
       </p>
     </main>
   );

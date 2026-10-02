@@ -7,13 +7,21 @@
     "description": "Paycheck-cycle money tools. One job per file. You enter the numbers. The file returns the result. It does not advise.",
     "audience": "A household that runs on pay dates.",
     "niche": "Household",
-    "colors": { "paper": "#F4F1EC", "ink": "#111111", "accent": "#8A3A12", "line": "#C4BEB4" },
+    "colors": {
+      "paper": "#F4F1EC",
+      "ink": "#111111",
+      "accent": "#8A3A12",
+      "line": "#C4BEB4"
+    },
     "typography": {
       "display": "\"Source Serif 4\", Georgia, serif",
       "text": "\"IBM Plex Sans\", \"Outfit\", sans-serif",
       "googleHref": "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap"
     },
-    "logo": { "monogram": "EL" },
+    "logo": {
+      "monogram": "EL",
+      "src": "/shops/elvoria/logo.png"
+    },
     "status": "active"
   },
   {
@@ -24,13 +32,21 @@
     "description": "Cost a bake before it is priced. Ingredients, yield, and the number that comes back. The sheet does not tell you what to charge a customer beyond the arithmetic.",
     "audience": "A baker who prices their own work.",
     "niche": "Bakery",
-    "colors": { "paper": "#F6F1E7", "ink": "#2C2418", "accent": "#B08A4F", "line": "#E3D5C2" },
+    "colors": {
+      "paper": "#F6F1E7",
+      "ink": "#2C2418",
+      "accent": "#B08A4F",
+      "line": "#E3D5C2"
+    },
     "typography": {
       "display": "\"Fraunces\", Georgia, serif",
       "text": "\"Source Sans 3\", \"Outfit\", sans-serif",
       "googleHref": "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Source+Sans+3:wght@400;500&display=swap"
     },
-    "logo": { "monogram": "TB" },
+    "logo": {
+      "monogram": "TB",
+      "src": "/shops/tallybench/logo.png"
+    },
     "status": "active"
   },
   {
@@ -41,13 +57,21 @@
     "description": "Price a yard visit from time, travel, and materials. The sheet returns a quote figure. It does not schedule the route.",
     "audience": "An outdoor crew that quotes its own jobs.",
     "niche": "Outdoor service",
-    "colors": { "paper": "#F2F5F1", "ink": "#1A2A22", "accent": "#2F5D3A", "line": "#D5DDD4" },
+    "colors": {
+      "paper": "#F2F5F1",
+      "ink": "#1A2A22",
+      "accent": "#2F5D3A",
+      "line": "#D5DDD4"
+    },
     "typography": {
       "display": "\"Barlow\", \"Outfit\", sans-serif",
       "text": "\"Barlow\", \"Outfit\", sans-serif",
       "googleHref": "https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&display=swap"
     },
-    "logo": { "monogram": "LL" },
+    "logo": {
+      "monogram": "LL",
+      "src": "/shops/lotline/logo.png"
+    },
     "status": "active"
   },
   {
@@ -58,13 +82,21 @@
     "description": "Price a sit from visits, add-ons, and travel. The card returns a visit total. It does not book the calendar.",
     "audience": "A pet sitter who prices visits.",
     "niche": "Pet sitting",
-    "colors": { "paper": "#F8F3F0", "ink": "#2A1C18", "accent": "#8B3A2A", "line": "#E5D4CC" },
+    "colors": {
+      "paper": "#F8F3F0",
+      "ink": "#2A1C18",
+      "accent": "#8B3A2A",
+      "line": "#E5D4CC"
+    },
     "typography": {
       "display": "\"Libre Baskerville\", Georgia, serif",
       "text": "\"Karla\", \"Outfit\", sans-serif",
       "googleHref": "https://fonts.googleapis.com/css2?family=Karla:wght@400;500&family=Libre+Baskerville:wght@400;700&display=swap"
     },
-    "logo": { "monogram": "KR" },
+    "logo": {
+      "monogram": "KR",
+      "src": "/shops/kipround/logo.png"
+    },
     "status": "active"
   },
   {
@@ -75,13 +107,21 @@
     "description": "Price a decoration run from blanks, ink, and setup. The sheet returns a job figure. It does not design the print.",
     "audience": "A decorator who quotes their own press work.",
     "niche": "Apparel decoration",
-    "colors": { "paper": "#F3F3F1", "ink": "#141414", "accent": "#1C2744", "line": "#CFCDC6" },
+    "colors": {
+      "paper": "#F3F3F1",
+      "ink": "#141414",
+      "accent": "#1C2744",
+      "line": "#CFCDC6"
+    },
     "typography": {
       "display": "\"Space Grotesk\", \"Outfit\", sans-serif",
       "text": "\"Space Grotesk\", \"Outfit\", sans-serif",
       "googleHref": "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap"
     },
-    "logo": { "monogram": "PL" },
+    "logo": {
+      "monogram": "PL",
+      "src": "/shops/platen/logo.png"
+    },
     "status": "active"
   },
   {
@@ -92,13 +132,21 @@
     "description": "Set rent, sales, and the booth fee against the month. The ledger returns what the booth kept. It does not appraise the goods.",
     "audience": "A dealer who runs a mall booth.",
     "niche": "Antique mall",
-    "colors": { "paper": "#F3EBDD", "ink": "#2B2118", "accent": "#B08D57", "line": "#E2D5C3" },
+    "colors": {
+      "paper": "#F3EBDD",
+      "ink": "#2B2118",
+      "accent": "#B08D57",
+      "line": "#E2D5C3"
+    },
     "typography": {
       "display": "\"Cormorant Garamond\", Georgia, serif",
       "text": "\"Jost\", \"Outfit\", sans-serif",
       "googleHref": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Jost:wght@400;500&display=swap"
     },
-    "logo": { "monogram": "VI" },
+    "logo": {
+      "monogram": "VI",
+      "src": "/shops/vitrine/logo.png"
+    },
     "status": "active"
   },
   {
@@ -109,13 +157,21 @@
     "description": "Set appointments, service price, and chair cost against one day. The sheet returns what the chair kept. It does not book the dog.",
     "audience": "A groomer who prices a chair day.",
     "niche": "Grooming",
-    "colors": { "paper": "#F7F3EC", "ink": "#2A2118", "accent": "#C4A574", "line": "#E6D9C6" },
+    "colors": {
+      "paper": "#F7F3EC",
+      "ink": "#2A2118",
+      "accent": "#C4A574",
+      "line": "#E6D9C6"
+    },
     "typography": {
       "display": "\"Newsreader\", Georgia, serif",
       "text": "\"Manrope\", \"Outfit\", sans-serif",
       "googleHref": "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap"
     },
-    "logo": { "monogram": "PE" },
+    "logo": {
+      "monogram": "PE",
+      "src": "/shops/pelage/logo.png"
+    },
     "status": "active"
   }
 ]

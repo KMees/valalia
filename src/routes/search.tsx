@@ -34,11 +34,11 @@ function SearchPage() {
       <h1 className="text-4xl font-medium">Search</h1>
       <form className="mt-6" action="/search">
         <label htmlFor="q" className="sr-only">
-          Search products and brands
+          Search products and shops
         </label>
-        <input id="q" className="field" type="search" name="q" defaultValue={q} placeholder="Search products and brands" />
+        <input id="q" className="field" type="search" name="q" defaultValue={q} placeholder="Search products and shops" />
       </form>
-      {!query ? <p className="mt-8 text-mute">Search products and brands.</p> : null}
+      {!query ? <p className="mt-8 text-mute">Search products and shops.</p> : null}
       {query && foundProducts.length === 0 && foundBrands.length === 0 ? (
         <div className="mt-8">
           <EmptyState title="No products match.">
@@ -48,7 +48,7 @@ function SearchPage() {
       ) : null}
       {foundBrands.length > 0 ? (
         <section className="mt-10">
-          <h2 className="text-sm tracking-widest text-mute">Brands</h2>
+          <h2 className="text-sm tracking-widest text-mute">Shops</h2>
           <ul className="mt-4 grid gap-4 md:grid-cols-2">
             {foundBrands.map((brand) => (
               <li key={brand.id}>

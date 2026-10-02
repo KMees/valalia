@@ -61,7 +61,7 @@ function NotFoundPage() {
       <h1 className="text-3xl font-medium">Page not found.</h1>
       <p className="mt-3 text-mute">That address is not on this site.</p>
       <p className="mt-6">
-        <Link to="/brands">Brands</Link>
+        <Link to="/brands">Shops</Link>
       </p>
     </main>
   );

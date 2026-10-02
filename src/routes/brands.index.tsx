@@ -12,8 +12,8 @@ export const Route = createFileRoute("/brands/")({
   component: BrandsPage,
   head: () => ({
     meta: [
-      { title: "Brands — Valalia" },
-      { name: "description", content: "Specialist brands in the Valalia house." },
+      { title: "Shops — Valalia" },
+      { name: "description", content: "The specialist shops. Each keeps its name." },
     ],
   }),
 });
@@ -25,7 +25,7 @@ function BrandsPage() {
 
   return (
     <main className="mx-auto max-w-6xl px-5 py-12">
-      <h1 className="text-4xl font-medium">Brands</h1>
+      <h1 className="text-4xl font-medium">Shops</h1>
       <p className="mt-3 max-w-xl text-mute">Each shop keeps its name, its buyer, and its color.</p>
       <div className="mt-6 flex flex-wrap gap-2" role="group" aria-label="Filter by niche">
         <Link to="/brands" className="btn btn-secondary" aria-current={!niche ? "true" : undefined}>
@@ -45,7 +45,7 @@ function BrandsPage() {
       </div>
       {list.length === 0 ? (
         <div className="mt-8">
-          <EmptyState title="No brands match.">
+          <EmptyState title="No shops match.">
             <Link to="/brands">Clear filter</Link>
           </EmptyState>
         </div>

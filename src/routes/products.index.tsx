@@ -24,7 +24,7 @@ export const Route = createFileRoute("/products/")({
   head: () => ({
     meta: [
       { title: "Products — Valalia" },
-      { name: "description", content: "Instruments from the Valalia houses." },
+      { name: "description", content: "Products from the Valalia shops." },
     ],
   }),
 });
@@ -48,7 +48,7 @@ function ProductsPage() {
         <label>
           <span className="mb-1 block text-sm text-mute">Brand</span>
           <select className="field" name="brand" defaultValue={brandSlug}>
-            <option value="">All brands</option>
+            <option value="">All shops</option>
             {brands.map((item) => (
               <option key={item.id} value={item.slug}>
                 {item.name}

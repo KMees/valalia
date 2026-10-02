@@ -37,7 +37,11 @@ function BrandPage() {
   return (
     <main style={brandVars(brand)}>
       <div className="mx-auto max-w-6xl px-5 py-12">
-        <p className="text-sm tracking-widest">{brand.logo.monogram}</p>
+        {brand.logo.src ? (
+          <img src={brand.logo.src} alt="" className="h-20 w-20 object-contain" />
+        ) : (
+          <p className="text-sm tracking-widest">{brand.logo.monogram}</p>
+        )}
         <h1 className="mt-3 text-5xl" style={{ fontFamily: brand.typography.display }}>
           {brand.name}
         </h1>
@@ -46,14 +50,14 @@ function BrandPage() {
         <p className="mt-3 text-sm">For {brand.audience}</p>
         {!open ? (
           <p className="mt-6 border-t pt-6" style={{ borderColor: brand.colors.line }}>
-            The catalog is not open.
+            Not for sale yet. The products are here so the shop can be reviewed.
           </p>
         ) : null}
         <div className="mt-8 flex flex-wrap gap-4">
           <Link to="/brands/$slug/products" params={{ slug: brand.slug }}>
             Products
           </Link>
-          <Link to="/brands">All brands</Link>
+          <Link to="/brands">All shops</Link>
         </div>
         <h2 className="mt-10 text-sm tracking-widest">Products</h2>
         <div className="mt-4">

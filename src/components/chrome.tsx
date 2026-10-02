@@ -6,7 +6,7 @@ import { cartCount, useCart } from "@/lib/commerce/cart";
 import { useCartReady } from "@/lib/use-mounted";
 
 const NAV = [
-  { to: "/brands", label: "Brands" },
+  { to: "/brands", label: "Shops" },
   { to: "/account", label: "Account" },
   { to: "/cart", label: "Cart" },
 ] as const;
@@ -37,14 +37,14 @@ export function SiteHeader() {
         </Link>
         <form action="/search" className="hidden min-w-0 flex-1 md:block">
           <label htmlFor="site-search" className="sr-only">
-            Search products and brands
+            Search products and shops
           </label>
           <input
             id="site-search"
             className="field"
             type="search"
             name="q"
-            placeholder="Search products and brands"
+            placeholder="Search products and shops"
           />
         </form>
         <nav className="ml-auto hidden items-center gap-5 md:flex" aria-label="Primary">
@@ -116,7 +116,7 @@ export function SiteFooter() {
       <div className="mx-auto grid max-w-6xl gap-8 px-5 py-10 md:grid-cols-[1.4fr_1fr]">
         <div>
           <p className="wordmark text-sm">VALALIA</p>
-          <p className="mt-3 max-w-sm text-mute">The house. The shops keep their names.</p>
+          <p className="mt-3 max-w-sm text-mute">Valalia builds products. The shops keep their names.</p>
         </div>
         <nav className="flex flex-wrap gap-x-5 gap-y-2" aria-label="Footer">
           <Link to="/about" className="text-measure">About</Link>

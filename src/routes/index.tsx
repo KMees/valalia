@@ -18,29 +18,29 @@ function Home() {
         <p className="mt-5 max-w-xl text-lg text-mute">Specialist instruments for independent work.</p>
         <form action="/search" className="mt-8 max-w-xl">
           <label htmlFor="home-search" className="sr-only">
-            Search products and brands
+            Search products and shops
           </label>
-          <input id="home-search" className="field" type="search" name="q" placeholder="Search products and brands" />
+          <input id="home-search" className="field" type="search" name="q" placeholder="Search products and shops" />
         </form>
         <div className="mt-8 flex flex-wrap gap-3">
           <Link to="/products" className="btn">
             Browse products
           </Link>
-          <a className="btn btn-secondary" href="#houses">
-            The houses
+          <a className="btn btn-secondary" href="#shops">
+            The shops
           </a>
         </div>
       </section>
 
-      <section id="houses" className="mx-auto max-w-6xl scroll-mt-20 px-5 py-6">
-        <h2 className="text-sm tracking-widest text-mute">Houses</h2>
-        <div className="mt-5 flex gap-4 overflow-x-auto pb-2 md:grid md:grid-cols-2 md:overflow-visible lg:grid-cols-3">
+      <section id="shops" className="mx-auto max-w-6xl scroll-mt-20 px-5 py-6">
+        <h2 className="text-sm tracking-widest text-mute">Shops</h2>
+        <ul className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {brands.map((brand) => (
-            <div key={brand.id} className="w-72 shrink-0 md:w-auto">
+            <li key={brand.id}>
               <BrandDoor brand={brand} count={countForBrand(products, brand.id)} />
-            </div>
+            </li>
           ))}
-        </div>
+        </ul>
       </section>
 
       <section id="featured" className="mx-auto max-w-6xl scroll-mt-20 px-5 py-12">

@@ -18,11 +18,16 @@
     "price": 1200,
     "currency": "USD",
     "format": "spreadsheet",
-    "images": [],
+    "images": [
+      {
+        "src": "/shops/elvoria/elv-001.png",
+        "alt": "Daily Spendable listing image"
+      }
+    ],
     "files": [
       {
         "key": "private/elvoria/elv-001/daily-spendable.xlsx",
-        "filename": "ELVORIA Daily Spendable — COPY ME.xlsx",
+        "filename": "ELVORIA Daily Spendable \u2014 COPY ME.xlsx",
         "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
       },
       {
@@ -32,7 +37,11 @@
       }
     ],
     "license": "Personal use. The buyer keeps their copy. Do not resell or share the file.",
-    "tags": ["paycheck", "safe to spend", "household"],
+    "tags": [
+      "paycheck",
+      "safe to spend",
+      "household"
+    ],
     "status": "active",
     "featured": true,
     "createdAt": "2026-06-01"
@@ -46,15 +55,24 @@
     "description": "Compares a snowball order and an avalanche order from the balances you type. Dates assume the planned payments are made. It is not a credit product.",
     "buyerProvides": "Each balance, its rate, its minimum, and any extra you plan to pay.",
     "returns": "Debt-free date, interest, an order comparison, and a period plan.",
-    "features": ["Snowball and avalanche dates", "Interest comparison", "Period plan"],
+    "features": [
+      "Snowball and avalanche dates",
+      "Interest comparison",
+      "Period plan"
+    ],
     "price": 1200,
     "currency": "USD",
     "format": "spreadsheet",
-    "images": [],
+    "images": [
+      {
+        "src": "/shops/elvoria/elv-002.png",
+        "alt": "Debt Payoff Tracker listing image"
+      }
+    ],
     "files": [
       {
         "key": "private/elvoria/elv-002/debt-payoff.xlsx",
-        "filename": "ELVORIA Debt Payoff Tracker — COPY ME.xlsx",
+        "filename": "ELVORIA Debt Payoff Tracker \u2014 COPY ME.xlsx",
         "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
       },
       {
@@ -64,7 +82,11 @@
       }
     ],
     "license": "Personal use. The buyer keeps their copy. Do not resell or share the file.",
-    "tags": ["debt", "snowball", "avalanche"],
+    "tags": [
+      "debt",
+      "snowball",
+      "avalanche"
+    ],
     "status": "active",
     "featured": false,
     "createdAt": "2026-06-08"
@@ -78,15 +100,24 @@
     "description": "Tracks dated goals and the amount still required this period. Status is ready, saving, due now, or missing a date.",
     "buyerProvides": "Each goal, its date, and what is already set aside.",
     "returns": "Required this period, remaining, pace, and a status for each goal.",
-    "features": ["Required amount this period", "Remaining by goal", "Ready, saving, due, or missing date"],
+    "features": [
+      "Required amount this period",
+      "Remaining by goal",
+      "Ready, saving, due, or missing date"
+    ],
     "price": 1200,
     "currency": "USD",
     "format": "spreadsheet",
-    "images": [],
+    "images": [
+      {
+        "src": "/shops/elvoria/elv-003.png",
+        "alt": "Sinking Funds Tracker listing image"
+      }
+    ],
     "files": [
       {
         "key": "private/elvoria/elv-003/sinking-funds.xlsx",
-        "filename": "ELVORIA Sinking Funds Tracker — COPY ME.xlsx",
+        "filename": "ELVORIA Sinking Funds Tracker \u2014 COPY ME.xlsx",
         "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
       },
       {
@@ -96,7 +127,11 @@
       }
     ],
     "license": "Personal use. The buyer keeps their copy. Do not resell or share the file.",
-    "tags": ["sinking funds", "goals", "household"],
+    "tags": [
+      "sinking funds",
+      "goals",
+      "household"
+    ],
     "status": "active",
     "featured": true,
     "createdAt": "2026-06-15"
@@ -110,11 +145,19 @@
     "description": "A printable map of bills between now and the next deposit. No calculation engine.",
     "buyerProvides": "Bill names and the dates they fall due.",
     "returns": "A visual map. No calculation.",
-    "features": ["Letter and A4 print", "Bills placed against the next deposit"],
+    "features": [
+      "Letter and A4 print",
+      "Bills placed against the next deposit"
+    ],
     "price": 900,
     "currency": "USD",
     "format": "pdf",
-    "images": [{ "src": "/media/missing-cover.png", "alt": "Paycheck Calendar cover" }],
+    "images": [
+      {
+        "src": "/shops/elvoria/elv-004.png",
+        "alt": "Paycheck Calendar listing image"
+      }
+    ],
     "files": [
       {
         "key": "private/elvoria/elv-004/paycheck-calendar.pdf",
@@ -123,7 +166,11 @@
       }
     ],
     "license": "Personal use. The buyer keeps their copy. Do not resell or share the file.",
-    "tags": ["calendar", "bills", "printable"],
+    "tags": [
+      "calendar",
+      "bills",
+      "printable"
+    ],
     "status": "active",
     "featured": false,
     "createdAt": "2026-06-22"
@@ -137,11 +184,19 @@
     "description": "Printable category inserts for cash envelopes. Not a bank, and not a spreadsheet.",
     "buyerProvides": "Category names. Print and cut.",
     "returns": "Physical category inserts.",
-    "features": ["Letter and A4 sheets", "A6 inserts"],
+    "features": [
+      "Letter and A4 sheets",
+      "A6 inserts"
+    ],
     "price": 1100,
     "currency": "USD",
     "format": "pdf",
-    "images": [],
+    "images": [
+      {
+        "src": "/shops/elvoria/elv-005.png",
+        "alt": "Cash Envelope Starter Kit listing image"
+      }
+    ],
     "files": [
       {
         "key": "private/elvoria/elv-005/cash-envelope-kit.pdf",
@@ -150,7 +205,11 @@
       }
     ],
     "license": "Personal use. The buyer keeps their copy. Do not resell or share the file.",
-    "tags": ["envelopes", "cash", "printable"],
+    "tags": [
+      "envelopes",
+      "cash",
+      "printable"
+    ],
     "status": "active",
     "featured": false,
     "createdAt": "2026-06-29"
@@ -164,15 +223,24 @@
     "description": "Turns recurring charges into a yearly total and lists the next renewals. Cutting a row is your edit, not a recommendation engine.",
     "buyerProvides": "Each recurring charge, its amount, and its renewal date.",
     "returns": "Annualized total, monthly equivalent, cut potential, and the next five renewals.",
-    "features": ["Yearly total", "Monthly equivalent", "Next five renewals"],
+    "features": [
+      "Yearly total",
+      "Monthly equivalent",
+      "Next five renewals"
+    ],
     "price": 900,
     "currency": "USD",
     "format": "spreadsheet",
-    "images": [],
+    "images": [
+      {
+        "src": "/shops/elvoria/elv-006.png",
+        "alt": "Subscription Annualizer listing image"
+      }
+    ],
     "files": [
       {
         "key": "private/elvoria/elv-006/subscription-annualizer.xlsx",
-        "filename": "ELVORIA Subscription Annualizer — COPY ME.xlsx",
+        "filename": "ELVORIA Subscription Annualizer \u2014 COPY ME.xlsx",
         "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
       },
       {
@@ -182,7 +250,10 @@
       }
     ],
     "license": "Personal use. The buyer keeps their copy. Do not resell or share the file.",
-    "tags": ["subscriptions", "renewals"],
+    "tags": [
+      "subscriptions",
+      "renewals"
+    ],
     "status": "active",
     "featured": true,
     "createdAt": "2026-07-06"
@@ -196,15 +267,24 @@
     "description": "Builds a target from the must-pays you enter and counts periods to that target. Status is no target, saving, or ready.",
     "buyerProvides": "Must-pay amounts and what is already saved.",
     "returns": "Target, remaining, periods to goal, funded date, percent, and status.",
-    "features": ["Target from must-pays", "Periods to goal", "Funded date and status"],
+    "features": [
+      "Target from must-pays",
+      "Periods to goal",
+      "Funded date and status"
+    ],
     "price": 1200,
     "currency": "USD",
     "format": "spreadsheet",
-    "images": [],
+    "images": [
+      {
+        "src": "/shops/elvoria/elv-007.png",
+        "alt": "Emergency Fund Calculator listing image"
+      }
+    ],
     "files": [
       {
         "key": "private/elvoria/elv-007/emergency-fund.xlsx",
-        "filename": "ELVORIA Emergency Fund Calculator — COPY ME.xlsx",
+        "filename": "ELVORIA Emergency Fund Calculator \u2014 COPY ME.xlsx",
         "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
       },
       {
@@ -214,7 +294,10 @@
       }
     ],
     "license": "Personal use. The buyer keeps their copy. Do not resell or share the file.",
-    "tags": ["emergency fund", "runway"],
+    "tags": [
+      "emergency fund",
+      "runway"
+    ],
     "status": "active",
     "featured": false,
     "createdAt": "2026-07-13"
@@ -228,15 +311,24 @@
     "description": "Splits shared bills across two pay streams and flags a side that would go negative. It does not move the money.",
     "buyerProvides": "Two pay dates, shared bills, and what each stream can cover.",
     "returns": "A safe amount per stream, transfer lines, and two statuses.",
-    "features": ["Two pay streams", "Transfer lines", "A status for each side"],
+    "features": [
+      "Two pay streams",
+      "Transfer lines",
+      "A status for each side"
+    ],
     "price": 1400,
     "currency": "USD",
     "format": "spreadsheet",
-    "images": [],
+    "images": [
+      {
+        "src": "/shops/elvoria/elv-008.png",
+        "alt": "Dual Paycheck Allocator listing image"
+      }
+    ],
     "files": [
       {
         "key": "private/elvoria/elv-008/dual-paycheck.xlsx",
-        "filename": "ELVORIA Dual-Paycheck Allocator — COPY ME.xlsx",
+        "filename": "ELVORIA Dual-Paycheck Allocator \u2014 COPY ME.xlsx",
         "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
       },
       {
@@ -246,7 +338,10 @@
       }
     ],
     "license": "Personal use. The buyer keeps their copy. Do not resell or share the file.",
-    "tags": ["two incomes", "bills"],
+    "tags": [
+      "two incomes",
+      "bills"
+    ],
     "status": "active",
     "featured": true,
     "createdAt": "2026-07-20"
@@ -260,15 +355,24 @@
     "description": "Sets a this-cycle safe amount from uneven deposits. A boom is flagged. It is not used as the new baseline.",
     "buyerProvides": "Uneven deposits for the cycle and the bills that stay.",
     "returns": "This-cycle safe amount, a daily split, a boom flag, and a status.",
-    "features": ["Safe amount for this cycle", "Daily split", "Boom flag"],
+    "features": [
+      "Safe amount for this cycle",
+      "Daily split",
+      "Boom flag"
+    ],
     "price": 1400,
     "currency": "USD",
     "format": "spreadsheet",
-    "images": [],
+    "images": [
+      {
+        "src": "/shops/elvoria/elv-009.png",
+        "alt": "Variable Income Planner listing image"
+      }
+    ],
     "files": [
       {
         "key": "private/elvoria/elv-009/variable-income.xlsx",
-        "filename": "ELVORIA Variable Income Planner — COPY ME.xlsx",
+        "filename": "ELVORIA Variable Income Planner \u2014 COPY ME.xlsx",
         "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
       },
       {
@@ -278,7 +382,10 @@
       }
     ],
     "license": "Personal use. The buyer keeps their copy. Do not resell or share the file.",
-    "tags": ["variable income", "paycheck"],
+    "tags": [
+      "variable income",
+      "paycheck"
+    ],
     "status": "active",
     "featured": false,
     "createdAt": "2026-07-27"
@@ -292,11 +399,20 @@
     "description": "Splits a withdrawal across envelopes and reports the remainder. A one-tab sheet includes a note helper. The printable is the primary file.",
     "buyerProvides": "The cash withdrawn and the envelope amounts.",
     "returns": "Remainder, a balanced, over-allocated, or under-allocated status, and a note helper on the sheet.",
-    "features": ["Envelope split", "Remainder", "Optional one-tab sheet"],
+    "features": [
+      "Envelope split",
+      "Remainder",
+      "Optional one-tab sheet"
+    ],
     "price": 900,
     "currency": "USD",
     "format": "pdf",
-    "images": [],
+    "images": [
+      {
+        "src": "/shops/elvoria/elv-010.png",
+        "alt": "Payday Cash Split listing image"
+      }
+    ],
     "files": [
       {
         "key": "private/elvoria/elv-010/payday-cash-split.pdf",
@@ -305,12 +421,16 @@
       },
       {
         "key": "private/elvoria/elv-010/payday-cash-split.xlsx",
-        "filename": "ELVORIA Payday Cash-Split — COPY ME.xlsx",
+        "filename": "ELVORIA Payday Cash-Split \u2014 COPY ME.xlsx",
         "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
       }
     ],
     "license": "Personal use. The buyer keeps their copy. Do not resell or share the file.",
-    "tags": ["payday", "cash", "envelopes"],
+    "tags": [
+      "payday",
+      "cash",
+      "envelopes"
+    ],
     "status": "active",
     "featured": false,
     "createdAt": "2026-08-03"
@@ -324,15 +444,24 @@
     "description": "A ledger of named envelopes. Spends reduce the remaining amount. Over and over-cap are flags, not advice.",
     "buyerProvides": "Envelope names, amounts in, and spends out.",
     "returns": "Remaining per envelope, total remaining, and over or over-cap flags.",
-    "features": ["Remaining per envelope", "Total remaining", "Over and over-cap flags"],
+    "features": [
+      "Remaining per envelope",
+      "Total remaining",
+      "Over and over-cap flags"
+    ],
     "price": 1200,
     "currency": "USD",
     "format": "spreadsheet",
-    "images": [],
+    "images": [
+      {
+        "src": "/shops/elvoria/elv-011.png",
+        "alt": "Digital Envelope Ledger listing image"
+      }
+    ],
     "files": [
       {
         "key": "private/elvoria/elv-011/digital-envelope-ledger.xlsx",
-        "filename": "ELVORIA Digital Envelope Ledger — COPY ME.xlsx",
+        "filename": "ELVORIA Digital Envelope Ledger \u2014 COPY ME.xlsx",
         "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
       },
       {
@@ -342,7 +471,10 @@
       }
     ],
     "license": "Personal use. The buyer keeps their copy. Do not resell or share the file.",
-    "tags": ["envelopes", "ledger"],
+    "tags": [
+      "envelopes",
+      "ledger"
+    ],
     "status": "active",
     "featured": false,
     "createdAt": "2026-08-10"
@@ -356,11 +488,19 @@
     "description": "Printable marks for one finite target. No spreadsheet engine.",
     "buyerProvides": "One target and the marks toward it.",
     "returns": "Visual progress on one finite target.",
-    "features": ["One finite target", "Letter, A4, and A6 cards"],
+    "features": [
+      "One finite target",
+      "Letter, A4, and A6 cards"
+    ],
     "price": 800,
     "currency": "USD",
     "format": "pdf",
-    "images": [],
+    "images": [
+      {
+        "src": "/shops/elvoria/elv-012.png",
+        "alt": "Savings Challenge Pack listing image"
+      }
+    ],
     "files": [
       {
         "key": "private/elvoria/elv-012/savings-challenges.pdf",
@@ -369,135 +509,1657 @@
       }
     ],
     "license": "Personal use. The buyer keeps their copy. Do not resell or share the file.",
-    "tags": ["savings", "printable"],
+    "tags": [
+      "savings",
+      "printable"
+    ],
     "status": "active",
     "featured": false,
     "createdAt": "2026-08-17"
   },
   {
-    "id": "tal-001",
-    "slug": "batch-cost-card",
+    "id": "tb-001",
+    "slug": "ingredient-unit-cost-engine",
     "brandId": "tallybench",
-    "title": "Batch Cost Card",
-    "summary": "What does this bake cost from ingredients and yield?",
-    "description": "A preview instrument. It will cost one batch from ingredient lines and yield. Not for sale until the file is attached.",
-    "buyerProvides": "Ingredient costs and the number of portions.",
-    "returns": "Cost per batch and cost per portion.",
-    "features": ["Ingredient lines", "Yield", "Cost per portion"],
-    "price": 1400,
+    "title": "Ingredient Unit-Cost Engine",
+    "summary": "Ingredient Unit-Cost Engine",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Ingredient Unit-Cost Engine"
+    ],
+    "price": 0,
     "currency": "USD",
     "format": "spreadsheet",
-    "images": [],
+    "images": [
+      {
+        "src": "/shops/tallybench/tb-001.png",
+        "alt": "Ingredient Unit-Cost Engine listing image"
+      }
+    ],
     "files": [],
-    "license": "Personal use. Not for sale in this preview.",
-    "tags": ["bakery", "costing"],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "bakery"
+    ],
     "status": "preview",
     "featured": false,
-    "createdAt": "2026-09-01"
+    "createdAt": "2026-10-02"
   },
   {
-    "id": "lot-001",
-    "slug": "route-quote-sheet",
+    "id": "tb-002",
+    "slug": "recipe-batch-cost-engine",
+    "brandId": "tallybench",
+    "title": "Recipe Batch Cost Engine",
+    "summary": "Recipe Batch Cost Engine",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Recipe Batch Cost Engine"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/tallybench/tb-002.png",
+        "alt": "Recipe Batch Cost Engine listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "bakery"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "tb-003",
+    "slug": "custom-cake-quote-engine",
+    "brandId": "tallybench",
+    "title": "Custom Cake Quote Engine",
+    "summary": "Custom Cake Quote Engine",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Custom Cake Quote Engine"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/tallybench/tb-003.png",
+        "alt": "Custom Cake Quote Engine listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "bakery"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "tb-004",
+    "slug": "boxed-goods-yield-pricer",
+    "brandId": "tallybench",
+    "title": "Boxed Goods Yield Pricer",
+    "summary": "Boxed Goods Yield Pricer",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Boxed Goods Yield Pricer"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/tallybench/tb-004.png",
+        "alt": "Boxed Goods Yield Pricer listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "bakery"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "tb-005",
+    "slug": "bake-hour-rate-setter",
+    "brandId": "tallybench",
+    "title": "Bake-Hour Rate Setter",
+    "summary": "Bake-Hour Rate Setter",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Bake-Hour Rate Setter"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/tallybench/tb-005.png",
+        "alt": "Bake-Hour Rate Setter listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "bakery"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "tb-008",
+    "slug": "order-capacity-board",
+    "brandId": "tallybench",
+    "title": "Order Capacity Board",
+    "summary": "Order Capacity Board",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Order Capacity Board"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/tallybench/tb-008.png",
+        "alt": "Order Capacity Board listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "bakery"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "tb-009",
+    "slug": "tiered-event-cake-builder",
+    "brandId": "tallybench",
+    "title": "Tiered Event Cake Builder",
+    "summary": "Tiered Event Cake Builder",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Tiered Event Cake Builder"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/tallybench/tb-009.png",
+        "alt": "Tiered Event Cake Builder listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "bakery"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "tb-010",
+    "slug": "deposit-and-pickup-ledger",
+    "brandId": "tallybench",
+    "title": "Deposit and Pickup Ledger",
+    "summary": "Deposit and Pickup Ledger",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Deposit and Pickup Ledger"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/tallybench/tb-010.png",
+        "alt": "Deposit and Pickup Ledger listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "bakery"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "ll-001",
+    "slug": "lot-area-mow-quoter",
     "brandId": "lotline",
-    "title": "Route Quote Sheet",
-    "summary": "What does this yard visit cost from time, travel, and materials?",
-    "description": "A preview instrument. It will price one outdoor visit. Not for sale until the file is attached.",
-    "buyerProvides": "Time on site, travel, and material lines.",
-    "returns": "A quote figure for one visit.",
-    "features": ["Time", "Travel", "Materials"],
-    "price": 1400,
+    "title": "Lot Area Mow Quoter",
+    "summary": "Lot Area Mow Quoter",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Lot Area Mow Quoter"
+    ],
+    "price": 0,
     "currency": "USD",
     "format": "spreadsheet",
-    "images": [],
+    "images": [
+      {
+        "src": "/shops/lotline/ll-001.png",
+        "alt": "Lot Area Mow Quoter listing image"
+      }
+    ],
     "files": [],
-    "license": "Personal use. Not for sale in this preview.",
-    "tags": ["quoting", "outdoor"],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "outdoor service"
+    ],
     "status": "preview",
     "featured": false,
-    "createdAt": "2026-09-02"
+    "createdAt": "2026-10-02"
   },
   {
-    "id": "kip-001",
-    "slug": "visit-rate-card",
+    "id": "ll-002",
+    "slug": "recurring-plan-pricer",
+    "brandId": "lotline",
+    "title": "Recurring Plan Pricer",
+    "summary": "Recurring Plan Pricer",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Recurring Plan Pricer"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/lotline/ll-002.png",
+        "alt": "Recurring Plan Pricer listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "outdoor service"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "ll-003",
+    "slug": "yard-add-on-stacker",
+    "brandId": "lotline",
+    "title": "Yard Add-On Stacker",
+    "summary": "Yard Add-On Stacker",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Yard Add-On Stacker"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/lotline/ll-003.png",
+        "alt": "Yard Add-On Stacker listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "outdoor service"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "ll-004",
+    "slug": "fuel-and-consumable-adder",
+    "brandId": "lotline",
+    "title": "Fuel and Consumable Adder",
+    "summary": "Fuel and Consumable Adder",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Fuel and Consumable Adder"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/lotline/ll-004.png",
+        "alt": "Fuel and Consumable Adder listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "outdoor service"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "ll-005",
+    "slug": "route-day-capacity-board",
+    "brandId": "lotline",
+    "title": "Route Day Capacity Board",
+    "summary": "Route Day Capacity Board",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Route Day Capacity Board"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/lotline/ll-005.png",
+        "alt": "Route Day Capacity Board listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "outdoor service"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "ll-006",
+    "slug": "quote-vs-clocked-time",
+    "brandId": "lotline",
+    "title": "Quote vs Clocked Time",
+    "summary": "Quote vs Clocked Time",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Quote vs Clocked Time"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/lotline/ll-006.png",
+        "alt": "Quote vs Clocked Time listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "outdoor service"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "ll-007",
+    "slug": "first-cut-multiplier",
+    "brandId": "lotline",
+    "title": "First-Cut Multiplier",
+    "summary": "First-Cut Multiplier",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "First-Cut Multiplier"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/lotline/ll-007.png",
+        "alt": "First-Cut Multiplier listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "outdoor service"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "ll-008",
+    "slug": "seasonal-cleanup-quoter",
+    "brandId": "lotline",
+    "title": "Seasonal Cleanup Quoter",
+    "summary": "Seasonal Cleanup Quoter",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Seasonal Cleanup Quoter"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/lotline/ll-008.png",
+        "alt": "Seasonal Cleanup Quoter listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "outdoor service"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "ll-009",
+    "slug": "deposit-and-balance-ledger",
+    "brandId": "lotline",
+    "title": "Deposit and Balance Ledger",
+    "summary": "Deposit and Balance Ledger",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Deposit and Balance Ledger"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/lotline/ll-009.png",
+        "alt": "Deposit and Balance Ledger listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "outdoor service"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "kr-001",
+    "slug": "visit-rate-builder",
     "brandId": "kipround",
-    "title": "Visit Rate Card",
-    "summary": "What does this sit cost from visits, add-ons, and travel?",
-    "description": "A preview instrument. It will price one sitting visit. Not for sale until the file is attached.",
-    "buyerProvides": "Visit count, add-ons, and travel.",
-    "returns": "A visit total.",
-    "features": ["Visits", "Add-ons", "Travel"],
-    "price": 1200,
+    "title": "Visit Rate Builder",
+    "summary": "Visit Rate Builder",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Visit Rate Builder"
+    ],
+    "price": 0,
     "currency": "USD",
     "format": "spreadsheet",
-    "images": [],
+    "images": [
+      {
+        "src": "/shops/kipround/kr-001.png",
+        "alt": "Visit Rate Builder listing image"
+      }
+    ],
     "files": [],
-    "license": "Personal use. Not for sale in this preview.",
-    "tags": ["pet sitting", "pricing"],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "pet sitting"
+    ],
     "status": "preview",
     "featured": false,
-    "createdAt": "2026-09-03"
+    "createdAt": "2026-10-02"
   },
   {
-    "id": "pla-001",
-    "slug": "print-job-quote",
+    "id": "kr-002",
+    "slug": "extra-pet-adder",
+    "brandId": "kipround",
+    "title": "Extra-Pet Adder",
+    "summary": "Extra-Pet Adder",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Extra-Pet Adder"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/kipround/kr-002.png",
+        "alt": "Extra-Pet Adder listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "pet sitting"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "kr-003",
+    "slug": "holiday-after-hours-rate",
+    "brandId": "kipround",
+    "title": "Holiday & After-Hours Rate",
+    "summary": "Holiday & After-Hours Rate",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Holiday & After-Hours Rate"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/kipround/kr-003.png",
+        "alt": "Holiday & After-Hours Rate listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "pet sitting"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "kr-004",
+    "slug": "prepaid-visit-pack",
+    "brandId": "kipround",
+    "title": "Prepaid Visit Pack",
+    "summary": "Prepaid Visit Pack",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Prepaid Visit Pack"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/kipround/kr-004.png",
+        "alt": "Prepaid Visit Pack listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "pet sitting"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "kr-005",
+    "slug": "day-round-capacity",
+    "brandId": "kipround",
+    "title": "Day-Round Capacity",
+    "summary": "Day-Round Capacity",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Day-Round Capacity"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/kipround/kr-005.png",
+        "alt": "Day-Round Capacity listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "pet sitting"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "kr-006",
+    "slug": "true-hourly-after-drive",
+    "brandId": "kipround",
+    "title": "True Hourly After Drive",
+    "summary": "True Hourly After Drive",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "True Hourly After Drive"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/kipround/kr-006.png",
+        "alt": "True Hourly After Drive listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "pet sitting"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "kr-007",
+    "slug": "stay-structure-compare",
+    "brandId": "kipround",
+    "title": "Stay Structure Compare",
+    "summary": "Stay Structure Compare",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Stay Structure Compare"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/kipround/kr-007.png",
+        "alt": "Stay Structure Compare listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "pet sitting"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "kr-008",
+    "slug": "home-board-slot-check",
+    "brandId": "kipround",
+    "title": "Home-Board Slot Check",
+    "summary": "Home-Board Slot Check",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Home-Board Slot Check"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/kipround/kr-008.png",
+        "alt": "Home-Board Slot Check listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "pet sitting"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "kr-009",
+    "slug": "per-visit-cost-load",
+    "brandId": "kipround",
+    "title": "Per-Visit Cost Load",
+    "summary": "Per-Visit Cost Load",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Per-Visit Cost Load"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/kipround/kr-009.png",
+        "alt": "Per-Visit Cost Load listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "pet sitting"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "plt-001",
+    "slug": "embroidery-stitch-job-quoter",
     "brandId": "platen",
-    "title": "Print Job Quote",
-    "summary": "What does this decoration run cost from blanks, ink, and setup?",
-    "description": "A preview instrument. It will price one press job. Not for sale until the file is attached.",
-    "buyerProvides": "Blank count, ink, and setup time.",
-    "returns": "A job figure.",
-    "features": ["Blanks", "Ink", "Setup"],
-    "price": 1600,
+    "title": "Embroidery Stitch Job Quoter",
+    "summary": "Embroidery Stitch Job Quoter",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Embroidery Stitch Job Quoter"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/platen/plt-001.png",
+        "alt": "Embroidery Stitch Job Quoter listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "apparel decoration"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "plt-002",
+    "slug": "screen-print-color-quantity-quoter",
+    "brandId": "platen",
+    "title": "Screen-Print Color Quantity Quoter",
+    "summary": "Screen-Print Color Quantity Quoter",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Screen-Print Color Quantity Quoter"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/platen/plt-002.png",
+        "alt": "Screen-Print Color Quantity Quoter listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "apparel decoration"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "plt-003",
+    "slug": "heat-press-transfer-job-quoter",
+    "brandId": "platen",
+    "title": "Heat-Press Transfer Job Quoter",
+    "summary": "Heat-Press Transfer Job Quoter",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Heat-Press Transfer Job Quoter"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/platen/plt-003.png",
+        "alt": "Heat-Press Transfer Job Quoter listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "apparel decoration"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "plt-004",
+    "slug": "quantity-break-team-order-quoter",
+    "brandId": "platen",
+    "title": "Quantity-Break Team Order Quoter",
+    "summary": "Quantity-Break Team Order Quoter",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Quantity-Break Team Order Quoter"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/platen/plt-004.png",
+        "alt": "Quantity-Break Team Order Quoter listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "apparel decoration"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "plt-005",
+    "slug": "extra-placement-adder",
+    "brandId": "platen",
+    "title": "Extra-Placement Adder",
+    "summary": "Extra-Placement Adder",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Extra-Placement Adder"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/platen/plt-005.png",
+        "alt": "Extra-Placement Adder listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "apparel decoration"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "plt-006",
+    "slug": "machine-day-capacity",
+    "brandId": "platen",
+    "title": "Machine-Day Capacity",
+    "summary": "Machine-Day Capacity",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Machine-Day Capacity"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/platen/plt-006.png",
+        "alt": "Machine-Day Capacity listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "apparel decoration"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "plt-007",
+    "slug": "rush-run-adder",
+    "brandId": "platen",
+    "title": "Rush Run Adder",
+    "summary": "Rush Run Adder",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Rush Run Adder"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/platen/plt-007.png",
+        "alt": "Rush Run Adder listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "apparel decoration"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "plt-008",
+    "slug": "order-deposit-card",
+    "brandId": "platen",
+    "title": "Order Deposit Card",
+    "summary": "Order Deposit Card",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Order Deposit Card"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/platen/plt-008.png",
+        "alt": "Order Deposit Card listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "apparel decoration"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "plt-009",
+    "slug": "quoted-vs-actual-run-card",
+    "brandId": "platen",
+    "title": "Quoted vs Actual Run Card",
+    "summary": "Quoted vs Actual Run Card",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Quoted vs Actual Run Card"
+    ],
+    "price": 0,
     "currency": "USD",
     "format": "spreadsheet",
     "images": [],
     "files": [],
-    "license": "Personal use. Not for sale in this preview.",
-    "tags": ["apparel", "quoting"],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "apparel decoration"
+    ],
     "status": "preview",
     "featured": false,
-    "createdAt": "2026-09-04"
+    "createdAt": "2026-10-02"
   },
   {
     "id": "vit-001",
-    "slug": "booth-month-ledger",
+    "slug": "rent-cover",
     "brandId": "vitrine",
-    "title": "Booth Month Ledger",
-    "summary": "After rent and the booth fee, what did the month keep?",
-    "description": "A preview instrument. It will set booth rent, sales, and fees against one month. Not for sale until the file is attached.",
-    "buyerProvides": "Rent, fees, and sales for the month.",
-    "returns": "What the booth kept.",
-    "features": ["Rent", "Fees", "Sales"],
-    "price": 1400,
+    "title": "Rent Cover",
+    "summary": "Rent Cover",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Rent Cover"
+    ],
+    "price": 0,
     "currency": "USD",
     "format": "spreadsheet",
-    "images": [],
+    "images": [
+      {
+        "src": "/shops/vitrine/vit-001.png",
+        "alt": "Rent Cover listing image"
+      }
+    ],
     "files": [],
-    "license": "Personal use. Not for sale in this preview.",
-    "tags": ["booth", "antique"],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "antique mall"
+    ],
     "status": "preview",
     "featured": false,
-    "createdAt": "2026-09-05"
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "vit-002",
+    "slug": "aging-and-pull-list",
+    "brandId": "vitrine",
+    "title": "Aging And Pull List",
+    "summary": "Aging And Pull List",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Aging And Pull List"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/vitrine/vit-002.png",
+        "alt": "Aging And Pull List listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "antique mall"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "vit-003",
+    "slug": "settlement-reconcile",
+    "brandId": "vitrine",
+    "title": "Settlement Reconcile",
+    "summary": "Settlement Reconcile",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Settlement Reconcile"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/vitrine/vit-003.png",
+        "alt": "Settlement Reconcile listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "antique mall"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "vit-004",
+    "slug": "multi-space-comparison",
+    "brandId": "vitrine",
+    "title": "Multi Space Comparison",
+    "summary": "Multi Space Comparison",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Multi Space Comparison"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/vitrine/vit-004.png",
+        "alt": "Multi Space Comparison listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "antique mall"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "vit-005",
+    "slug": "source-trip-yield",
+    "brandId": "vitrine",
+    "title": "Source Trip Yield",
+    "summary": "Source Trip Yield",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Source Trip Yield"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/vitrine/vit-005.png",
+        "alt": "Source Trip Yield listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "antique mall"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "vit-006",
+    "slug": "markdown-ladder",
+    "brandId": "vitrine",
+    "title": "Markdown Ladder",
+    "summary": "Markdown Ladder",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Markdown Ladder"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/vitrine/vit-006.png",
+        "alt": "Markdown Ladder listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "antique mall"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "vit-007",
+    "slug": "case-vs-booth",
+    "brandId": "vitrine",
+    "title": "Case Vs Booth",
+    "summary": "Case Vs Booth",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Case Vs Booth"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/vitrine/vit-007.png",
+        "alt": "Case Vs Booth listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "antique mall"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "vit-008",
+    "slug": "restock-visit-packout",
+    "brandId": "vitrine",
+    "title": "Restock Visit Packout",
+    "summary": "Restock Visit Packout",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Restock Visit Packout"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/vitrine/vit-008.png",
+        "alt": "Restock Visit Packout listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "antique mall"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "vit-009",
+    "slug": "tag-price-after-mall-take",
+    "brandId": "vitrine",
+    "title": "Tag Price After Mall Take",
+    "summary": "Tag Price After Mall Take",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Tag Price After Mall Take"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/vitrine/vit-009.png",
+        "alt": "Tag Price After Mall Take listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "antique mall"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "vit-010",
+    "slug": "year-keep-or-leave",
+    "brandId": "vitrine",
+    "title": "Year Keep Or Leave",
+    "summary": "Year Keep Or Leave",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Year Keep Or Leave"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/vitrine/vit-010.png",
+        "alt": "Year Keep Or Leave listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "antique mall"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
   },
   {
     "id": "pel-001",
-    "slug": "chair-day-sheet",
+    "slug": "chair-hour-rate-setter",
     "brandId": "pelage",
-    "title": "Chair Day Sheet",
-    "summary": "After appointments and chair cost, what did the day keep?",
-    "description": "A preview instrument. It will set one chair day against service price and chair cost. Not for sale until the file is attached.",
-    "buyerProvides": "Appointments, service prices, and the chair cost.",
-    "returns": "What the chair kept for the day.",
-    "features": ["Appointments", "Service price", "Chair cost"],
-    "price": 1400,
+    "title": "Chair Hour Rate Setter",
+    "summary": "Chair Hour Rate Setter",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Chair Hour Rate Setter"
+    ],
+    "price": 0,
     "currency": "USD",
     "format": "spreadsheet",
-    "images": [],
+    "images": [
+      {
+        "src": "/shops/pelage/pel-001.png",
+        "alt": "Chair Hour Rate Setter listing image"
+      }
+    ],
     "files": [],
-    "license": "Personal use. Not for sale in this preview.",
-    "tags": ["grooming", "chair"],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "grooming"
+    ],
     "status": "preview",
     "featured": false,
-    "createdAt": "2026-09-06"
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "pel-002",
+    "slug": "size-and-coat-menu-builder",
+    "brandId": "pelage",
+    "title": "Size and Coat Menu Builder",
+    "summary": "Size and Coat Menu Builder",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Size and Coat Menu Builder"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/pelage/pel-002.png",
+        "alt": "Size and Coat Menu Builder listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "grooming"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "pel-003",
+    "slug": "condition-and-demat-adder",
+    "brandId": "pelage",
+    "title": "Condition and Demat Adder",
+    "summary": "Condition and Demat Adder",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Condition and Demat Adder"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/pelage/pel-003.png",
+        "alt": "Condition and Demat Adder listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "grooming"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "pel-004",
+    "slug": "add-on-time-stacker",
+    "brandId": "pelage",
+    "title": "Add-On Time Stacker",
+    "summary": "Add-On Time Stacker",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Add-On Time Stacker"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/pelage/pel-004.png",
+        "alt": "Add-On Time Stacker listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "grooming"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "pel-005",
+    "slug": "mobile-trip-adder",
+    "brandId": "pelage",
+    "title": "Mobile Trip Adder",
+    "summary": "Mobile Trip Adder",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Mobile Trip Adder"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/pelage/pel-005.png",
+        "alt": "Mobile Trip Adder listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "grooming"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "pel-006",
+    "slug": "chair-day-capacity",
+    "brandId": "pelage",
+    "title": "Chair Day Capacity",
+    "summary": "Chair Day Capacity",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Chair Day Capacity"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/pelage/pel-006.png",
+        "alt": "Chair Day Capacity listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "grooming"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "pel-007",
+    "slug": "booth-rent-vs-commission",
+    "brandId": "pelage",
+    "title": "Booth Rent vs Commission",
+    "summary": "Booth Rent vs Commission",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Booth Rent vs Commission"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/pelage/pel-007.png",
+        "alt": "Booth Rent vs Commission listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "grooming"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "pel-008",
+    "slug": "rebook-interval-check",
+    "brandId": "pelage",
+    "title": "Rebook Interval Check",
+    "summary": "Rebook Interval Check",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Rebook Interval Check"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/pelage/pel-008.png",
+        "alt": "Rebook Interval Check listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "grooming"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "pel-009",
+    "slug": "quoted-vs-clocked-groom",
+    "brandId": "pelage",
+    "title": "Quoted vs Clocked Groom",
+    "summary": "Quoted vs Clocked Groom",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "Quoted vs Clocked Groom"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/pelage/pel-009.png",
+        "alt": "Quoted vs Clocked Groom listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "grooming"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "pel-010",
+    "slug": "no-show-chair-cost",
+    "brandId": "pelage",
+    "title": "No-Show Chair Cost",
+    "summary": "No-Show Chair Cost",
+    "description": "Production listing from the shop files. Not for sale until the site is opened.",
+    "buyerProvides": "The numbers the sheet asks for.",
+    "returns": "The result named in the listing.",
+    "features": [
+      "No-Show Chair Cost"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "format": "spreadsheet",
+    "images": [
+      {
+        "src": "/shops/pelage/pel-010.png",
+        "alt": "No-Show Chair Cost listing image"
+      }
+    ],
+    "files": [],
+    "license": "Not for sale in this prototype.",
+    "tags": [
+      "grooming"
+    ],
+    "status": "preview",
+    "featured": false,
+    "createdAt": "2026-10-02"
   }
 ]

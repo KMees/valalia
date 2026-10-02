@@ -100,7 +100,7 @@ Only `VITE_` variables reach the browser. Live provider secrets belong on the ho
 
 ## Sample data
 
-Elvoria has the twelve production titles as active records, with sample prices. The other six brands each have one preview instrument. Preview items show “Not for sale yet.”
+Elvoria has the twelve production titles as active records, with sample prices and the production listing image. The other six shops have their production products as preview records, with the shop logo and listing image. Preview items show “Not for sale yet.” One Platen product, Quoted vs Actual Run Card, has no listing image in the files yet.
 
 Prices are sample catalog prices. They are not a live price list.
 
@@ -121,10 +121,10 @@ Unknown brands and products return a not-found state with a link back to the bra
 
 ## QA checklist
 
-- [ ] Home shows the house line, seven doors, and featured Elvoria products
-- [ ] Parent bar stays Measure. Store accents stay on doors and covers
+- [ ] Home shows the house line, seven shops, and featured Elvoria products
+- [ ] Parent bar stays Measure. Shop logos and listing images stay on the shop cards
 - [ ] `/brands/elvoria` lists twelve instruments and does not list other shops
-- [ ] `/brands/tallybench` renders from the same template and says the catalog is not open
+- [ ] `/brands/tallybench` uses the same template, shows its products, and says they are not for sale yet
 - [ ] A product page is one route, filled from the record
 - [ ] Add to cart, cart count, remove, empty cart
 - [ ] Checkout email validation, failed-payment state (cart kept), prototype order
@@ -133,8 +133,8 @@ Unknown brands and products return a not-found state with a link back to the bra
 - [ ] Account routes say accounts are not open
 - [ ] Search with no match, and a cleared search
 - [ ] `/products/missing-product` and `/brands/missing-brand`
-- [ ] Paycheck Calendar uses a missing image and still shows a cover
-- [ ] Mobile width does not overflow. Tap targets are at least 44px
+- [ ] Paycheck Calendar shows its listing image
+- [ ] The seven shop cards are fully visible on a phone. Each card opens that shop
 - [ ] Focus is visible. Buttons have names
 
 ## Known limitations
@@ -144,7 +144,7 @@ Unknown brands and products return a not-found state with a link back to the bra
 - Orders and the cart live in one browser. A new device does not see them.
 - Sample prices are not the shop’s live prices.
 - Elvoria descriptions are shortened from the production listings. They are not the full listing copy.
-- Preview brands do not yet attach production files.
+- Preview shops show their products and images. They are not for sale, and they do not yet attach production files.
 - No customer accounts, no refunds, no analytics vendor.
 - `format: software` is accepted by the record and has no sample product yet.
 - Signed locators expire on a timestamp and are not checked by a server. They are not downloads.

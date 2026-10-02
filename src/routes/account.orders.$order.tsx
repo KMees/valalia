@@ -29,7 +29,7 @@ function OrderDetail() {
         <div className="mt-6">
           <h1 className="text-3xl font-medium">This order is not in this browser.</h1>
           <p className="mt-4">
-            <Link to="/brands">Brands</Link>
+            <Link to="/brands">Shops</Link>
           </p>
         </div>
       ) : null}
